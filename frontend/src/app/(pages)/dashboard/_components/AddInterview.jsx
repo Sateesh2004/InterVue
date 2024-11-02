@@ -44,7 +44,7 @@ const AddJobDetails = () => {
    Years Of Experience : ${formData.yearsOfExperience}
 
 
-   based upon above mentioned details give me 3 interview question along with answers in json format and dont include any quote in response. Give us question and answer field on JSON.
+   based upon above mentioned details give me 10 interview question along with answers in json format and dont include any quote in response. Give us question and answer field on JSON.
    `;
 
    const result = await model.generateContent(prompt);

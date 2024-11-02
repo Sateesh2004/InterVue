@@ -23,7 +23,7 @@ const NavBar = () => {
         credentials: 'include',
       })
       if (response.ok) {
-        const result = await response()
+        const result = await response.json()
         alert(result.message)
         // window.location.href = "/"; 
       }

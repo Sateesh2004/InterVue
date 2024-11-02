@@ -60,7 +60,7 @@ const logout = (req,res)=>{
       }
 
       );
-      console.log("Logout is running")
+      
 
       return res.status(200).json({message:"Logout"})
 

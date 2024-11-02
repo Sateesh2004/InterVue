@@ -32,7 +32,7 @@ const Page = () => {
         
 
         if (!response.ok) {
-            const result = await response.json()
+            
             
             router.push('/signin');
         } else {

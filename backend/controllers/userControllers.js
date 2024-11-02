@@ -52,7 +52,10 @@ const signin = async (req,res)=>{
 }
 
 const logout = (req,res)=>{
+      console.log("Logout is running")
       res.clearCookie("jwt");
+      console.log("Logout  2 is running")
+
       return res.status(200).json({message:"Logout"})
 
 }

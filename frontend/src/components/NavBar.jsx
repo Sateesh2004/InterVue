@@ -8,7 +8,6 @@ const navigation = [
   { name: 'Home', href: '/' },
   { name: 'Dashboard', href: '/dashboard' },
   { name: 'Services', href: '/services' },
-  { name: 'Upgrade', href: '/upgrade' },
 ];
 const NavBar = () => {
   const [first_letter,setFirstLetter]=useState("")
@@ -17,15 +16,23 @@ const NavBar = () => {
     setCardShow(!cardshow)
   }
   const logout =async ()=>{
-   
-    const response =await fetch("https://intervue2-wgit3nni.b4a.run/auth/logout",{
-      method:"POST",
-      headers:{"Content-Type":"application/json"},
-      credentials: 'include',
-    })
-    if (response.ok) {
-      window.location.href = "/"; 
+    try{
+      const response =await fetch("https://intervue2-wgit3nni.b4a.run/auth/logout",{
+        method:"POST",
+        headers:{"Content-Type":"application/json"},
+        credentials: 'include',
+      })
+      if (response.ok) {
+        const result = await response()
+        alert(result.message)
+        // window.location.href = "/"; 
+      }
     }
+    catch(e){
+      alert(e.message)
+    }
+   
+   
     
     
 

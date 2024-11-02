@@ -11,6 +11,7 @@ const navigation = [
 ];
 const NavBar = () => {
   const [first_letter,setFirstLetter]=useState("")
+  const [logoutdetect,setLogOutDetect]=useState(false)
   const [cardshow,setCardShow]=useState(false)
   const card = ()=>{
     setCardShow(!cardshow)
@@ -23,6 +24,7 @@ const NavBar = () => {
         credentials: 'include',
       })
       if (response.ok) {
+        setLogOutDetect(true)
         
         window.location.href = "/"; 
       }
@@ -36,6 +38,12 @@ const NavBar = () => {
     
 
   }
+
+
+  useEffect(()=>{
+    localStorage.removeItem('username');
+
+  },[logoutdetect])
 
   useEffect(() => {
     const username = localStorage.getItem('username');

@@ -18,7 +18,7 @@ const NavBar = () => {
   }
   const logout =async ()=>{
    
-    const response =await fetch("http://localhost:3001/auth/logout",{
+    const response =await fetch("https://intervue2-wgit3nni.b4a.run/auth/logout",{
       method:"POST",
       headers:{"Content-Type":"application/json"},
       credentials: 'include',

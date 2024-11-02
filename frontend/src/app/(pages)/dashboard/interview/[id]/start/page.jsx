@@ -214,7 +214,7 @@ const nextQuestion = () => {
       try {
         
 
-        const response = await fetch(`http://localhost:3001/auth/validate/${username}`, {
+        const response = await fetch(`https://intervue2-wgit3nni.b4a.run/auth/validate/${username}`, {
           method: "POST",
           headers: { "Content-Type": "application/json" },
           credentials: 'include',
@@ -250,7 +250,7 @@ const Complete = async ()=>{
 
 
   
-  const response = await fetch("http://localhost:3001/interview/updatedetails", {
+  const response = await fetch("https://intervue2-wgit3nni.b4a.run/interview/updatedetails", {
       method: "POST",
       headers: { "Content-Type": "application/json" },  
       body: JSON.stringify({ answers: arr,id,feedback:feedbackArray })  

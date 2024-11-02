@@ -38,6 +38,7 @@ const Page = () => {
         } else {
           
           setLoading(false); 
+          
         }
       } catch (error) {
           

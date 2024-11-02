@@ -22,7 +22,8 @@ const page = () => {
     const auth = async () => {
       const username = localStorage.getItem('username');
       if (!username) {
-        router.push('/signin');
+        alert("JKL")
+        // router.push('/signin');
         return;
       }
 

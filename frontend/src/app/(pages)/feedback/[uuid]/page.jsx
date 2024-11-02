@@ -17,7 +17,7 @@ const Page = () => {
     useEffect(() => {
         const fetchData = async () => {
             try {
-                const response = await fetch("http://localhost:3001/interview/showdetails", {
+                const response = await fetch("https://intervue2-wgit3nni.b4a.run/interview/showdetails", {
                     method: "POST",
                     headers: { "Content-Type": "application/json" },
                     credentials: 'include',

@@ -11,7 +11,7 @@ const navigation = [
 ];
 const NavBar = () => {
   const [first_letter,setFirstLetter]=useState("")
-  const [logger,setLogger]=useState(false)
+  
 
   const [cardshow,setCardShow]=useState(false)
   const card = ()=>{
@@ -29,7 +29,7 @@ const NavBar = () => {
         
         
         window.location.href = "/"; 
-        setLogger(true)
+       
       }
     }
     catch(e){
@@ -43,12 +43,7 @@ const NavBar = () => {
   }
 
 
-  useEffect(()=>{
-    localStorage.removeItem('username');
-
-    
-
-  },[logger])
+ 
 
 
 

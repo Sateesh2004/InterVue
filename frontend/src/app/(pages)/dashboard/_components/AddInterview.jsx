@@ -91,7 +91,7 @@ const AddJobDetails = () => {
   };
 
   return (
-    <div className="mt-3">
+    <div className="mt-3 px-10">
       
       <div
         onClick={openModal}

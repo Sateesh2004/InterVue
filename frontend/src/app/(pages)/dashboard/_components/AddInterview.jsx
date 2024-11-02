@@ -52,7 +52,7 @@ const AddJobDetails = () => {
       const jsonString = textContent.replace(/```json\n|\n```/g, '');
       const parsedQuestions = JSON.parse(jsonString);
       console.log(parsedQuestions)
-      if(parsedQuestions.length!==3){
+      if(parsedQuestions.length!==10){
         alert("Kindly refresh the page and fill the details again due to busy resources.")
         router.push("/dashboard")     
            return

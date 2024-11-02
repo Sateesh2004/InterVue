@@ -369,7 +369,7 @@ const formatTime = (seconds) => {
             {!recording ? (
               <div>
                 {!nextButton && (
-                  <button className={`p-2 rounded mb-6 lg:mr-28 px-4 text-white ${isTalking ? "bg-gray-600 text-gray-700" : "bg-indigo-700"}`} disabled={isTalking} onClick={startInterview}>
+                  <button className={`p-2 rounded mb-3 lg:mr-28 px-4 text-white ${isTalking ? "bg-gray-600 text-gray-700" : "bg-indigo-700"}`} disabled={isTalking} onClick={startInterview}>
                     {!isTalking ? "Start" : "Interviewer is Talking"}
                   </button>
                 )}

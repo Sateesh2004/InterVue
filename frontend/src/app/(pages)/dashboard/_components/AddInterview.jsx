@@ -54,8 +54,8 @@ const AddJobDetails = () => {
       console.log(parsedQuestions)
       if(parsedQuestions.length!==10){
         alert("Kindly refresh the page and fill the details again due to busy resources.")
-        router.push("/dashboard")     
-           return
+        location.reload()  
+        return
       }
          
 

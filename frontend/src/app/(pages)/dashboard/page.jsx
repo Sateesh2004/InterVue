@@ -57,14 +57,17 @@ const Page = () => {
   
 
   return (
-    <div className="px-10 py-6">
+    <div className="py-6">
       <ToastContainer />
-      <h1 className="mt-6 text-3xl font-bold text-indigo-700">Dashboard</h1>
-      <p className="text-gray-500 mb-10">Create and Start your AI Mock Interview</p>
+      <h1 className="mt-6  px-10 text-3xl font-bold text-indigo-700">Dashboard</h1>
+      <p className="text-gray-500 px-10 mb-10">Create and Start your AI Mock Interview</p>
       <AddInterview />
-
+<br />
+<br />
+<br />
       
       <FetchInterview/>
+      <Footer/>
 
 
     </div>

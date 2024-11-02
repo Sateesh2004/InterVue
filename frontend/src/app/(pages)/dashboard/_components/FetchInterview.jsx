@@ -38,7 +38,7 @@ const FetchInterview = () => {
       };
   return (
     <div>
-       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+       <div className="grid bg-[#F7F7F7] p-10 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {interviews.slice(0, 6).map((interview, index) => (
           <div key={index} className="bg-white shadow-md rounded-lg p-6 flex flex-col justify-between">
             <div>

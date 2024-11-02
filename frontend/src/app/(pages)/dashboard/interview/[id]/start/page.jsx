@@ -244,9 +244,7 @@ const nextQuestion = () => {
 const Complete = async ()=>{
     
 
-    if (document.fullscreenElement) {
-      document.exitFullscreen();
-  }
+  
 
 
   
@@ -256,6 +254,9 @@ const Complete = async ()=>{
       body: JSON.stringify({ answers: arr,id,feedback:feedbackArray })  
   });
   if(response.ok){
+    if (document.fullscreenElement) {
+      document.exitFullscreen();
+  }
     // router.push("/dashboard")
     router.push(`/feedback/${id}`);
   }

@@ -17,6 +17,7 @@ const robotoMono = Roboto_Mono({ subsets: ['latin'] });
 
 const Page = () => {
   const router = useRouter();
+  const [bigLoader,setBigLoader]=useState(false)
   const { id } = useParams();
   const [feedbackArray, setFeedbackArray] = useState([]);
   const [arr, setArr] = useState([]);
@@ -242,7 +243,10 @@ const nextQuestion = () => {
 
 //Complete Interview
 const Complete = async ()=>{
-    
+
+  setBigLoader(true)
+
+  
 
   
 
@@ -257,6 +261,7 @@ const Complete = async ()=>{
     if (document.fullscreenElement) {
       document.exitFullscreen();
   }
+  setBigLoader(true)
     // router.push("/dashboard")
     router.push(`/feedback/${id}`);
   }
@@ -328,6 +333,12 @@ const formatTime = (seconds) => {
 
   return (
     <div className="bg-gray-50 p-8 custom">
+       {bigLoader&&( 
+        <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 z-50">
+        
+        <LoaderCircle className="animate-spin absolute top-[48%] text-indigo-700 w-[100px] h-[100px] "/>
+        </div>
+  )}
       {permissionsDenied && (
         <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 z-50">
           <div className="bg-white p-6 rounded-lg shadow-lg max-w-md text-center">
@@ -405,12 +416,12 @@ const formatTime = (seconds) => {
 
 
       {showInterviewComplete && (
-        <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 z-50">
+        <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 z-40">
           <div className="bg-white p-6 rounded-lg shadow-lg max-w-md text-center">
             <h2 className="text-xl font-semibold mb-4">Interview Completed!</h2>
             <p className="text-gray-700 mb-4">Thank you for completing the interview. Click below to proceed to feedback.</p>
             <button
-              className="bg-blue-500 text-white px-4 py-2 rounded"
+              className="bg-indigo-700 hover:bg-blue-700 text-white px-4 py-2 rounded"
               onClick={Complete}
             >
               Go to Feedback

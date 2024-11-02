@@ -30,7 +30,7 @@ const page = () => {
       try {
         
 
-        const response = await fetch(`https://intervue2-wgit3nni.b4a.run/validate/${username}`, {
+        const response = await fetch(`https://intervue2-wgit3nni.b4a.run/auth/validate/${username}`, {
           method: "POST",
           headers: { "Content-Type": "application/json" },
           credentials: 'include',

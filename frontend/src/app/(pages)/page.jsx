@@ -3,6 +3,7 @@ import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 import { Inter } from 'next/font/google'
+import Footer from '@/components/Footer'
 const inter = Inter({ subsets: ['latin'] })
 const page = () => {
   return (
@@ -113,7 +114,7 @@ const page = () => {
 
 
 
-  <Footer/>
+  <Footerr/>
                                             
 </div>
      

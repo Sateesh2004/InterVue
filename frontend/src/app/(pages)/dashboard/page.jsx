@@ -7,6 +7,7 @@ import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import moment from 'moment'; 
 import FetchInterview from './_components/FetchInterview';
+import Footer from '@/components/Footer';
 
 const Page = () => {
   const router = useRouter();

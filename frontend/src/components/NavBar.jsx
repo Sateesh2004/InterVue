@@ -26,13 +26,13 @@ const NavBar = () => {
     if (response.ok) {
       window.location.href = "/"; 
     }
-    localStorage.removeItem('username');
+    
     
 
   }
 
-  const username = localStorage.getItem('username');
   useEffect(() => {
+    const username = localStorage.getItem('username');
     if (username) {
       try {
          

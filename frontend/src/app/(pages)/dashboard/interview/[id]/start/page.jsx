@@ -2,6 +2,7 @@
 import "regenerator-runtime/runtime";
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'next/navigation';
+import { LoaderCircle } from 'lucide-react';
 
 import { useRouter } from 'next/navigation';
 import Image from 'next/image';

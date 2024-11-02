@@ -59,6 +59,7 @@ const logout = (req,res)=>{
 
 const showprofile=async (req,res)=>{
     const username = req.params.username
+    console.log("HEllo username")
    
     
     const uuid = req.body.id
@@ -67,14 +68,14 @@ const showprofile=async (req,res)=>{
     if(!uuid){
         const user = await User.findOne({username})
         if(!user){
-            return res.status(404).json({message:"User not found"})
+            return res.status(404).json({message:"User not found 1"})
         }
         return res.status(203).json({message:"User details",user})
     }
     else{
         const user = await User.findOne({username})
         if(!user){
-            return res.status(404).json({message:"User not found"})
+            return res.status(404).json({message:"User not found 2"})
         }
         
         if(!interviewid){

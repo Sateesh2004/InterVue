@@ -23,7 +23,7 @@ const page = () => {
       const username = localStorage.getItem('username');
       if (!username) {
         alert("JKL")
-        // router.push('/signin');
+        router.push('/signin');
         return;
       }
 
@@ -39,6 +39,8 @@ const page = () => {
 
        
         if(response.status===404){
+          const result = await response.json()
+          alert(result.message)
           alert("Hello Yaha ")
           // router.push('/signin');
         }
@@ -61,7 +63,7 @@ const page = () => {
           
         }
       } catch (error) {
-        alert("Hello Waha ")
+        alert("Hello Waha")
         // router.push('/signin');
       }
     };

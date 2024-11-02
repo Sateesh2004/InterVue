@@ -12,7 +12,7 @@ app.get("/",(req,res)=>{
     res.send("Hello")
 })
 
-const allowedOrigins = ['http://localhost:3000'];
+const allowedOrigins = ['https://inter-vue-glsv.vercel.app'];
 app.use(cors(
     {
         origin:allowedOrigins,

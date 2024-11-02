@@ -114,7 +114,7 @@ const page = () => {
 
 
 
-  <Footerr/>
+  <Footer/>
                                             
 </div>
      

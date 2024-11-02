@@ -38,7 +38,8 @@ const page = () => {
 
        
         if(response.status===404){
-          router.push('/signin');
+          alert("Hello Yaha ")
+          // router.push('/signin');
         }
         if(response.status===405){
           router.push('/dashboard');
@@ -59,7 +60,8 @@ const page = () => {
           
         }
       } catch (error) {
-        router.push('/signin');
+        alert("Hello Waha ")
+        // router.push('/signin');
       }
     };
 

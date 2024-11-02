@@ -64,6 +64,7 @@ const page = () => {
         }
       } catch (error) {
         alert("Hello Waha")
+        alert(error.message)
         // router.push('/signin');
       }
     };

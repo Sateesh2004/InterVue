@@ -12,7 +12,7 @@ const token = (res,user)=>{
     secure: true,    
     sameSite: "None", 
   });
-    return res.status(200).json({ message: "User sign successfully",username:user.username,email:user.email});
+    return res.status(200).json({ message: "User signed in successfully",username:user.username,email:user.email});
   }
   catch(e){
     res.status(500).json({ message: e.message });

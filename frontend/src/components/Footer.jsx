@@ -68,7 +68,7 @@ const Footer = () => {
         </div>
       </div>
 
-      <p className='text-gray-900 text-sm mt-10'>© Inter<span className='text-indigo-700'>Vue</span>. All rights reserved.
+      <p className='text-gray-900 text-sm mt-10'>© Inter<span className='text-indigo-700'>Veu</span>. All rights reserved.
       </p>
     </footer>
   )

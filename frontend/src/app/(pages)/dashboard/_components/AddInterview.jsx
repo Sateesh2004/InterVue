@@ -45,6 +45,7 @@ const AddJobDetails = () => {
 
 
    based upon above mentioned details give me 10 interview question along with answers in json format and dont include any quote in response. Give us question and answer field on JSON.
+   Note : First question should be an introduction question e.g. briedly explain about yourself.
    `;
 
    const result = await model.generateContent(prompt);

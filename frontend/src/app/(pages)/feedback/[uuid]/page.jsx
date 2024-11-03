@@ -121,7 +121,7 @@ const Page = () => {
                                     <hr />
                                     <br />
                                     <div
-                                        className={`overflow-hidden transition-all duration-300 ease-in-out ${expandedQuestions[index] ? "max-h-[1000px]" : "max-h-0"}`} // Use a class for max-height
+                                        className={`overflow-hidden transition-all duration-300 ease-in-out ${expandedQuestions[index] ? "max-h-[2000px]" : "max-h-0"}`} // Use a class for max-height
                                     >
                                         <p className="text-lg font-bold border rounded-lg p-4 text-red-700 border-red-300 bg-red-100 ">
                                             Your Answer: <span className=" font-normal">{usersanswers[index] || "No answer provided"}</span>

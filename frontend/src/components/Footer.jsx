@@ -13,7 +13,7 @@ const Footer = () => {
 
         <div className="lg:flex lg:items-center">
           <ul className="flex space-x-6">
-            <Link href="https://www.instagram.com/sateesh.dev/"><li>
+            <Link href="https://www.instagram.com/sateesh.dev/" target='_blank'><li>
             <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 71 72"
       fill="none">
       <path
@@ -23,7 +23,7 @@ const Footer = () => {
             </li>
             
             </Link>
-            <Link href="https://www.linkedin.com/in/sateesh-kumar-b4a206231/">
+            <Link href="https://www.linkedin.com/in/sateesh-kumar-b4a206231/" target='_blank'>
             
             <li>
             <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 72 72"
@@ -35,7 +35,7 @@ const Footer = () => {
               
             </li>
             </Link>
-            <Link href="https://x.com/Sateesh1dev">
+            <Link href="https://x.com/Sateesh1dev" target='_blank'>
             <li>
             <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 72 72"
       fill="none">

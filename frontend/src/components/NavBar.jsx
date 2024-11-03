@@ -80,8 +80,10 @@ const NavBar = () => {
         </div>
       )}
       <nav className="flex justify-between w-full items-center">
+        <Link href="/">
+     
         <div className="ml-5 text-black font-bold text-[30px]">Inter<span className='text-indigo-700'>Vue</span></div>
-
+        </Link>
         <div className="hidden md:flex">
           {navigation.map((menu, index) => (
             <Link key={index} href={menu.href} className={`mr-5 font-bold ${path === menu.href ? 'text-indigo-700' : 'text-black'}`}>

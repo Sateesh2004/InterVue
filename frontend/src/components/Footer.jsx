@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import React from 'react'
 
 const Footer = () => {
@@ -41,13 +42,13 @@ const Footer = () => {
           <h4 className="text-lg font-semibold mb-6 text-gray-900">Contact Us</h4>
           <ul className="space-y-4">
             <li>
-              <span  className="text-gray-900 text-sm">Email</span>
+              <span  className="text-gray-900 text-sm">kumarsateesh838@gmail.com</span>
             </li>
             <li>
-              <span  className="text-gray-900  text-sm">Phone</span>
+              <span  className="text-gray-900  text-sm">+91 9140524532</span>
             </li>
             <li>
-              <span  className="text-gray-900  text-sm">Address</span>
+              <span  className="text-gray-900  text-sm">Banda, Uttar Pradesh, India</span>
             </li>
           </ul>
         </div>
@@ -55,15 +56,16 @@ const Footer = () => {
         <div>
           <h4 className="text-lg font-semibold mb-6 text-gray-900">Information</h4>
           <ul className="space-y-4">
-            <li>
-              <span className="text-gray-900  text-sm">About Us</span>
-            </li>
+            <Link href="/Terms & Conditions.pdf" target='_blank'>
             <li>
               <span className="text-gray-900  text-sm">Terms &amp; Conditions</span>
             </li>
+            </Link>
+            <Link href="/Privacy Policy" target='_blank'>
             <li>
               <span className="text-gray-900  text-sm">Privacy Policy</span>
             </li>
+            </Link>
           </ul>
         </div>
       </div>

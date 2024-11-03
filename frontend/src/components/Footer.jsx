@@ -67,7 +67,7 @@ const Footer = () => {
           <h4 className="text-lg font-semibold mb-6 text-gray-900">Information</h4>
           <ul className="space-y-4">
             <li>
-            <Link href="/T&C.pdf" target="_blank" rel="noopener noreferrer">
+            <Link href="/Terms & Conditions.pdf" target="_blank" rel="noopener noreferrer">
       <span className="text-gray-900 text-sm">Terms &amp; Conditions</span>
     </Link>
             </li>

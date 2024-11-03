@@ -31,7 +31,7 @@ const page = () => {
   
 
     <div className="mt-5 max-w-3xl text-center mx-auto">
-      <p className={`text-lg text-gray-600 ${inter.className}`}><span className='font-bold'>Inter</span><span className='text-indigo-700 font-bold'>Vue</span> is a cutting-edge open-source project, powered by advanced AI technology.</p>
+      <p className={`text-lg text-gray-600 ${inter.className}`}><span className='font-bold'>Inter</span><span className='text-indigo-700 font-bold'>Veu</span> is a cutting-edge open-source project, powered by advanced AI technology.</p>
     </div>
 
     <div className="mt-8 gap-3 flex justify-center">

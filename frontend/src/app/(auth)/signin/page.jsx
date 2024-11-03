@@ -57,7 +57,8 @@ const Signin = () => {
           }
           else{
             const result = await response.json()
-            toast.success(result.message)
+            setLoader(false)
+            toast.error(result.message)
           }
         }
         catch(e){

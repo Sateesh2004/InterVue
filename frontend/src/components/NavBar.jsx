@@ -8,6 +8,7 @@ const navigation = [
   { name: 'Home', href: '/' },
   { name: 'Dashboard', href: '/dashboard' },
   { name: 'Services', href: '/services' },
+  { name: 'upgrade', href: '/upgrade' },
 ];
 const NavBar = () => {
   const [first_letter,setFirstLetter]=useState("")

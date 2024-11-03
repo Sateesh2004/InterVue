@@ -72,7 +72,7 @@ const page = () => {
                 <path d="M16 9a7 7 0 1 0 7 7 7.008 7.008 0 0 0-7-7Zm0 12a5 5 0 1 1 5-5 5.006 5.006 0 0 1-5 5Z" data-original="#000000" />
               </svg>
               <h3 className="text-gray-800 text-xl font-semibold mb-3">Customization</h3>
-              <p className="text-gray-500 text-sm leading-relaxed">Tailor our product to suit your needs Tailor our product to suit your needs.</p>
+              <p className="text-gray-500 text-sm leading-relaxed">Tailor our product to suit your needs.</p>
             </div>
           </div>
 

@@ -17,11 +17,10 @@ const Services = () => {
                     <span className="absolute top-0 left-0 w-full h-full mt-1 ml-1 bg-indigo-500 rounded-lg"></span>
                     <div className="relative h-full p-5 bg-white border-2 border-indigo-500 rounded-lg">
                         <div className="flex items-center -mt-1">
-                            <h3 className="my-2 ml-3 text-lg font-bold text-gray-800">DAPP Development</h3>
+                            <h3 className="my-2 ml-3 text-lg font-bold text-gray-800">Job Description Analysis</h3>
                         </div>
                         <p className="mt-3 mb-1 text-xs font-medium text-indigo-500 uppercase">------------</p>
-                        <p className="mb-2 text-gray-600">A decentralized application (dapp) is an application built on a
-                            decentralized network that combines a smart contract and a frontend user interface.</p>
+                        <p className="mb-2 text-gray-600">Identify key skills and align your responses with job requirements.</p>
                     </div>
                 </div>
             </div>
@@ -30,11 +29,10 @@ const Services = () => {
                     <span className="absolute top-0 left-0 w-full h-full mt-1 ml-1 bg-purple-500 rounded-lg"></span>
                     <div className="relative h-full p-5 bg-white border-2 border-purple-500 rounded-lg">
                         <div className="flex items-center -mt-1">
-                            <h3 className="my-2 ml-3 text-lg font-bold text-gray-800">Web 3.0 Development</h3>
+                            <h3 className="my-2 ml-3 text-lg font-bold text-gray-800">AI-Driven Question Generation</h3>
                         </div>
                         <p className="mt-3 mb-1 text-xs font-medium text-purple-500 uppercase">------------</p>
-                        <p className="mb-2 text-gray-600">Web 3.0 is the third generation of Internet services that will
-                            focus on understanding and analyzing data to provide a semantic web.</p>
+                        <p className="mb-2 text-gray-600">Generate relevant interview questions based on job descriptions.</p>
                     </div>
                 </div>
             </div>
@@ -45,11 +43,10 @@ const Services = () => {
                     <span className="absolute top-0 left-0 w-full h-full mt-1 ml-1 bg-blue-400 rounded-lg"></span>
                     <div className="relative h-full p-5 bg-white border-2 border-blue-400 rounded-lg">
                         <div className="flex items-center -mt-1">
-                            <h3 className="my-2 ml-3 text-lg font-bold text-gray-800">Project Audit</h3>
+                            <h3 className="my-2 ml-3 text-lg font-bold text-gray-800">Real-Time Feedback</h3>
                         </div>
                         <p className="mt-3 mb-1 text-xs font-medium text-blue-400 uppercase">------------</p>
-                        <p className="mb-2 text-gray-600">A Project Audit is a formal review of a project, which is intended
-                            to assess the extent up to which project management standards are being upheld.</p>
+                        <p className="mb-2 text-gray-600">Get instant feedback to improve language, tone, and content.</p>
                     </div>
                 </div>
             </div>
@@ -58,11 +55,10 @@ const Services = () => {
                     <span className="absolute top-0 left-0 w-full h-full mt-1 ml-1 bg-yellow-400 rounded-lg"></span>
                     <div className="relative h-full p-5 bg-white border-2 border-yellow-400 rounded-lg">
                         <div className="flex items-center -mt-1">
-                            <h3 className="my-2 ml-3 text-lg font-bold text-gray-800">Hacking / RE</h3>
+                            <h3 className="my-2 ml-3 text-lg font-bold text-gray-800">Mock Interview Sessions</h3>
                         </div>
                         <p className="mt-3 mb-1 text-xs font-medium text-yellow-400 uppercase">------------</p>
-                        <p className="mb-2 text-gray-600">A security hacker is someone who explores methods for breaching
-                            defenses and exploiting weaknesses in a computer system or network.</p>
+                        <p className="mb-2 text-gray-600">Participate in mock interviews and receive constructive feedback.</p>
                     </div>
                 </div>
             </div>
@@ -71,11 +67,10 @@ const Services = () => {
                     <span className="absolute top-0 left-0 w-full h-full mt-1 ml-1 bg-green-500 rounded-lg"></span>
                     <div className="relative h-full p-5 bg-white border-2 border-green-500 rounded-lg">
                         <div className="flex items-center -mt-1">
-                            <h3 className="my-2 ml-3 text-lg font-bold text-gray-800">Bot/Script Development</h3>
+                            <h3 className="my-2 ml-3 text-lg font-bold text-gray-800">Personalized Tips</h3>
                         </div>
                         <p className="mt-3 mb-1 text-xs font-medium text-green-500 uppercase">------------</p>
-                        <p className="mb-2 text-gray-600">Bot development frameworks were created as advanced software tools
-                            that eliminate a large amount of manual work and accelerate the development process.</p>
+                        <p className="mb-2 text-gray-600">Get tailored advice to handle difficult questions with confidence.</p>
                     </div>
                 </div>
             </div>

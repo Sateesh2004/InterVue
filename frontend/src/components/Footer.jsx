@@ -76,6 +76,11 @@ const Footer = () => {
               <span className="text-gray-900  text-sm">Privacy Policy</span>
               </Link>
             </li>
+            <li>
+              <Link href='/Refund Policy.pdf' target="_blank" rel="noopener noreferrer">
+              <span className="text-gray-900  text-sm">Refund Policy</span>
+              </Link>
+            </li>
           </ul>
         </div>
       </div>

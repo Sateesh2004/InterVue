@@ -58,7 +58,7 @@ const Footer = () => {
               <span  className="text-gray-900  text-sm">+91 9140524532</span>
             </li>
             <li>
-              <span  className="text-gray-900  text-sm">Banda, Uttar Pradesh, India</span>
+              <span  className="text-gray-900  text-sm">Forest Office, Civil Line, Banda, Uttar Pradesh, India</span>
             </li>
           </ul>
         </div>

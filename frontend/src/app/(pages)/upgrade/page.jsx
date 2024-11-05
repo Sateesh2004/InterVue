@@ -12,7 +12,7 @@ const Page = () => {
             <p className="opacity-60 text-center">For the individual and small teams
             </p>
             <div className="flex flex-col items-center my-8">
-                <p className="font-extrabold text-4xl">0 INR
+                <p className="font-extrabold text-4xl">$29
                 </p>
                 <p className="text-sm opacity-60">/month
                 </p>
@@ -88,7 +88,8 @@ const Page = () => {
             </p>
             <div className="flex gap-4 justify-center">
                 <div className="flex flex-col items-center my-8">
-                    <p className="font-extrabold text-4xl">1000 INR
+                    <p className="font-extrabold text-4xl">$79
+
                     </p>
                     <p className="text-sm opacity-60">/month
 

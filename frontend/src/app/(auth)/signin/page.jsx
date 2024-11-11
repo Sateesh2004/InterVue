@@ -12,9 +12,9 @@ const Signin = () => {
     
    
     
-    const [username,setUsername]=useState("admin")
+    const [username,setUsername]=useState("demo")
     const [loader,setLoader]=useState(false)
-    const [password,setPassword]=useState("Admin1!")
+    const [password,setPassword]=useState("demo1!")
     const submitHandler= async (e)=>{
 
 

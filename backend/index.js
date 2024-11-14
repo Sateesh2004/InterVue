@@ -12,7 +12,7 @@ app.get("/",(req,res)=>{
     res.send("Hello")
 })
 
-const allowedOrigins = ['https://inter-vue-glsv.vercel.app'];
+const allowedOrigins = ['https://interveu.vercel.app'];
 app.use(cors(
     {
         origin:allowedOrigins,

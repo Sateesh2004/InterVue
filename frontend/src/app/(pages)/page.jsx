@@ -4,8 +4,6 @@ import Link from 'next/link'
 import { Inter } from 'next/font/google'
 import Footer from '@/components/Footer'
 import Testimonials from '@/components/Testimonials'
-import Features from '@/components/Features'
-import { div } from '@tensorflow/tfjs'
 import CTA from '@/components/ui/CTA'
 import { Outfit } from 'next/font/google'
 const page = () => {

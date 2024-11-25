@@ -6,6 +6,10 @@ import Footer from '@/components/Footer'
 import Testimonials from '@/components/Testimonials'
 import CTA from '@/components/ui/CTA'
 import { Outfit } from 'next/font/google'
+const outfit = Outfit({
+  subsets: ['latin'],
+  weights: [100, 200, 300, 400, 500, 600, 700],
+});
 const page = () => {
   return (
   

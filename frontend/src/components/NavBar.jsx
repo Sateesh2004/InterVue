@@ -67,7 +67,7 @@ if (username) {
     if (username) {
       try {
          
-        setFirstLetter(username.charAt(0).toUpperCase()); 
+        setFirstLetter(username); 
       } catch (error) {
       }
     }

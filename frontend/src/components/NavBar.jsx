@@ -56,7 +56,14 @@ const NavBar = () => {
 
 
   useEffect(() => {
-    const username = localStorage.getItem('username');
+  
+
+    let username = localStorage.getItem('username');
+
+// Check if username exists and capitalize it
+if (username) {
+  username = username.charAt(0).toUpperCase() + username.slice(1).toLowerCase();
+}
     if (username) {
       try {
          
@@ -76,7 +83,7 @@ const NavBar = () => {
     <div className="bg-[#F2FFF9]  h-[60px] flex items-center">
     {cardshow && (
       <div className="absolute top-[60px] right-[10px] w-[120px] h-[100px] bg-white shadow-lg rounded-md border flex flex-col items-center justify-center z-[50]">
-        <button onClick={logout} className="px-4 py-2 bg-indigo-700 text-white rounded-md hover:bg-blue-700">
+        <button onClick={logout} className="px-4 py-2 bg-[#007AFF] text-white rounded-md hover:bg-blue-700">
           Log Out
         </button>
       </div>

@@ -5,6 +5,8 @@ import { useRouter } from 'next/navigation'
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css'; 
 import Link from 'next/link'
+import { Lobster_Two } from 'next/font/google';
+const lobster = Lobster_Two({ subsets: ['latin'], weight: '400' });
 
 import { LoaderCircle } from 'lucide-react';
 const Signin = () => {

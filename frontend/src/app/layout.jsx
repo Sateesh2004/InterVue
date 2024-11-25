@@ -26,7 +26,7 @@ export default function RootLayout({ children }) {
       
     
       <body
-        className={`${geistSans.variable} ${geistMono.variable} ${inter.className} antialiased scrollbar bg-white`}
+        className={`${geistSans.variable} ${geistMono.variable} ${inter.className} antialiased scrollbar bg-[#F2FFF9]`}
       >
         {children}
         

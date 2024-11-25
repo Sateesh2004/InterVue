@@ -113,7 +113,7 @@ const Signin = () => {
 
         <div className="mb-5 text-black font-bold text-[24px] text-center">
           <Link href=".">
-          <h1>Inter<span className='text-indigo-700'>Vue</span></h1></Link>
+          <h1 className={`${lobster.className} text-[40px] font-bold`}>InterVeu</h1></Link>
     
   </div>
 
@@ -151,13 +151,13 @@ const Signin = () => {
 
 
 <div className='mb-5'>
-<button type="submit" className="text-white bg-indigo-700 block hover:bg-blue-800 focus:ring-4 font-medium text-sm  px-5 py-2.5 text-center rounded-lg transition ease-in-out w-[100%]">
+<button type="submit" className="text-white bg-[#007AFF] block hover:bg-blue-800 focus:ring-4 font-medium text-sm  px-5 py-2.5 text-center rounded-lg transition ease-in-out w-[100%]">
   
     {!loader?<div>Submit</div>:<div className='flex justify-center'> <LoaderCircle className='animate-spin' /></div> }
   </button>
 </div>
 <div className='mb-5 text-black text-center'>
-Don't have an account? <Link href="/signup" className='text-indigo-700'>Create account</Link>
+Don't have an account? <Link href="/signup" className='text-[#007AFF]'>Create account</Link>
   </div>
 </form>
 </div>

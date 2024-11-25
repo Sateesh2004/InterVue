@@ -38,18 +38,18 @@ const FetchInterview = () => {
       };
   return (
     <div>
-       <div className="grid bg-[#F7F7F7] p-10 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+       <div className="grid p-10 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {interviews.slice(0, 6).map((interview, index) => (
-          <div key={index} className="bg-white shadow-md rounded-lg p-6 flex flex-col justify-between">
+          <div key={index} className="bg-white rounded border p-6 flex flex-col justify-between">
             <div>
-              <h2 className="text-xl font-semibold text-indigo-600">{interview.jobposition}</h2>
+              <h2 className="text-xl font-semibold  text-[#262626]">{interview.jobposition}</h2>
               <p className="text-sm text-gray-400 mt-2">
                 Date Created: {moment(interview.createdAt).format('MMMM Do YYYY')}
               </p>
             </div>
             <button
               onClick={() => handleFeedbackClick(interview.uuid)}
-              className="mt-4 px-4 py-2 bg-indigo-600 text-white rounded-lg hover:bg-indigo-700"
+              className="mt-4 px-4 py-2 bg-[#262626] hover:bg-black rounded text-white"
             >
               See Feedback
             </button>

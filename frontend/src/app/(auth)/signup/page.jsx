@@ -65,7 +65,7 @@ const Signin = () => {
     }
 
   return (
-   <div className='flex items-center justify-center  h-[100vh]  '>
+    <div className='flex items-center justify-center  h-[100vh]  '>
     <ToastContainer />
      <div
           aria-hidden="true"
@@ -87,9 +87,9 @@ const Signin = () => {
 
         <form className="w-[350px] mx-auto border p-4 bg-white/30 backdrop-blur-lg rounded-lg shadow-lg border-white/20" onSubmit={submitHandler}>
 
-        <div className="mb-5 text-black font-bold text-[24px] text-center">
+        <div className=" text-black font-bold text-[24px] text-center">
           <Link href=".">
-          <h1>Inter<span className='text-indigo-700'>Vue</span></h1></Link>
+          <h1 className={`${lobster.className} text-[40px] font-bold`}>InterVeu</h1></Link>
     
   </div>
 
@@ -160,13 +160,13 @@ const Signin = () => {
 
 <div className='mb-5'>
   
-  <button type="submit" className="text-white bg-indigo-700 block hover:bg-blue-800 focus:ring-4 font-medium text-sm  px-5 py-2.5 text-center rounded-lg transition ease-in-out w-[100%]">
+  <button type="submit" className="text-white bg-[#007AFF] block hover:bg-blue-800 focus:ring-4 font-medium text-sm  px-5 py-2.5 text-center rounded-lg transition ease-in-out w-[100%]">
   
     {!loader?<div>Submit</div>:<div className='flex justify-center'> <LoaderCircle className='animate-spin' /></div> }
   </button>
   </div>
 <div className='mb-5 text-black text-center'>
-  Already on Inter<span className='text-indigo-700'>Vue</span>? <Link href="/signin" className='text-indigo-700'>Sign In</Link>
+  Already on Intervue? <Link href="/signin" className='text-[#007AFF]'>Sign In</Link>
   </div>
 </form>
 

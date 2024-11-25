@@ -96,14 +96,14 @@ const AddJobDetails = () => {
       
       <div
         onClick={openModal}
-        className="p-10 w-[250px] bg-gray-200 border rounded-lg bg-secondary hover:scale-105 hover:shadow-md cursor-pointer transition-all border-dashed"
+        className="p-10 w-[250px] bg-[#6B6B6B] border rounded-lg bg-secondary hover:scale-105 hover:shadow-md cursor-pointer transition-all"
       >
-        <h2 className="text-lg text-center text-black">+ Add New</h2>
+        <h2 className="text-lg text-center text-white">+ Add New</h2>
       </div>
 
       {isModalOpen && (
         <div className="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center transition-opacity duration-300 ease-in-out">
-          <div className="bg-white p-6 rounded-lg shadow-lg max-w-lg w-full mx-4 md:w-3/4 lg:w-1/2">
+          <div className="bg-white p-6 rounded-2xl shadow-lg max-w-lg w-full mx-4 md:w-3/4 lg:w-1/2">
             <h2 className="font-semibold text-2xl text-black mb-2">Tell us more about your job</h2>
             <p className="text-gray-500 mb-6">Add Details about yout job position/role, job description and years of experience.
             </p>
@@ -118,7 +118,7 @@ const AddJobDetails = () => {
                   value={formData.jobPosition}
                   onChange={handleChange}
                   required
-                  className="mt-1 block text-black w-full border border-gray-300 rounded-md shadow-sm p-2 focus:ring-blue-500 focus:border-blue-500 sm:text-sm"
+                  className="mt-1 block text-black w-full border border-[#D3D3D3] rounded-3xl shadow-sm p-3 focus:ring-blue-500 focus:border-blue-500 sm:text-sm"
                   placeholder="e.g., Backend Developer, MERN Stack Developer"
 
                 />
@@ -130,7 +130,7 @@ const AddJobDetails = () => {
                   name="jobDescription"
                   value={formData.jobDescription}
                   onChange={handleChange}
-                  className="mt-1 block w-full  text-black border border-gray-300 rounded-md shadow-sm p-2 focus:ring-blue-500 focus:border-blue-500 sm:text-sm"
+                  className="mt-1 block w-full  text-black border border-gray-300 rounded-3xl shadow-sm p-2 focus:ring-blue-500 focus:border-blue-500 sm:text-sm"
                   rows="3"
                   placeholder="Brief description of your role"
                 ></textarea>
@@ -145,7 +145,7 @@ const AddJobDetails = () => {
                   value={formData.yearsOfExperience}
                   onChange={handleChange}
                   required
-                  className="mt-1 block w-full border  text-black border-gray-300 rounded-md shadow-sm p-2 focus:ring-blue-500 focus:border-blue-500 sm:text-sm"
+                  className="mt-1 block w-full border  text-black border-gray-300 rounded-3xl shadow-sm p-3 focus:ring-blue-500 focus:border-blue-500 sm:text-sm"
                   min="0"
                   placeholder="e.g., 0, 5, 10"
 
@@ -159,14 +159,14 @@ const AddJobDetails = () => {
                   type="button"
                   onClick={closeModal}
                   disabled={loader}
-                  className="px-4 py-2 bg-gray-300 text-gray-700 rounded hover:bg-gray-400"
+                  className="px-4 py-2 bg-black text-white  rounded-3xl hover:bg-[#262626]"
                 >
                   Cancel
                 </button>
                 <button
                   type="submit"
                   disabled={loader}
-                  className="px-4 py-2 bg-indigo-700 text-white rounded hover:bg-blue-700"
+                  className="px-4 py-2 bg-[#007AFF] text-white rounded-3xl hover:bg-blue-700"
                 >
                   {!loader?"Submit":<div className='flex justify-center'> Generating from AI  <LoaderCircle className='animate-spin ml-1' /></div>}
                   

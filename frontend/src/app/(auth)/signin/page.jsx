@@ -14,9 +14,9 @@ const Signin = () => {
     
    
     
-    const [username,setUsername]=useState("demo")
+    const [username,setUsername]=useState("")
     const [loader,setLoader]=useState(false)
-    const [password,setPassword]=useState("demo1!")
+    const [password,setPassword]=useState("")
     const submitHandler= async (e)=>{
 
 

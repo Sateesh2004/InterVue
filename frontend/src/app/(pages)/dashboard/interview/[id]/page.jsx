@@ -6,9 +6,7 @@ import Image from 'next/image'
 import { useRouter } from 'next/navigation';
 import { Webcam } from 'lucide-react';
 import { Lightbulb } from 'lucide-react';
-export const metadata = {
-  title: "Dashboard",
-};
+
 const page = () => {
   const { id } = useParams();
   const router = useRouter();

@@ -91,7 +91,7 @@ if (username) {
     <nav className="flex justify-between w-full items-center px-5">
       
 
-<Link href="/"> <div className={`text-[40px] font-bold ${lobster.className}`}>InterVeu</div></Link>
+<Link href="/"> <div className={`text-[40px] font-bold ${lobster.className}`}>Interveu</div></Link>
       
 
 

@@ -91,7 +91,7 @@ const Signin = () => {
 
         <div className=" text-black font-bold text-[24px] text-center">
           <Link href=".">
-          <h1 className={`${lobster.className} text-[40px] font-bold`}>InterVeu</h1></Link>
+          <h1 className={`${lobster.className} text-[40px] font-bold`}>Interveu</h1></Link>
     
   </div>
 

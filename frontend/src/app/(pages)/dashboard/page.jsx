@@ -67,7 +67,7 @@ const Page = () => {
     <br />
     <br />
     <FetchInterview/>
-    <Footer />
+    
   </div>
   );
 };

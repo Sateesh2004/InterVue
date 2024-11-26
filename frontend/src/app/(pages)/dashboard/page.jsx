@@ -58,7 +58,7 @@ const Page = () => {
   
 
   return (
-    <div className="py-6 bg-gradient-to-b from-[#F2FFF9] to-[#FFF6F1]">
+    <div className="py-6 bg-[#F2FFF9]">
     <ToastContainer />
     <h1 className="mt-6 px-10 text-3xl font-bold text-black">Dashboard</h1>
     <p className="text-gray-500 px-10 mb-10">Create and Start your AI Mock Interview</p>

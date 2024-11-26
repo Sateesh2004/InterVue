@@ -5,7 +5,7 @@ import Image from 'next/image';
 const Footer = () => {
   return (
 
-    <footer className="bg-[#FFF6F1] flex justify-between items-center px-20 py-6 text-black font-[sans-serif] tracking-wide">
+    <footer className="bg-[#FFF6F1] flex absolute bottom-0 left-0 right-0 justify-between items-center px-20 py-6 text-black font-[sans-serif] tracking-wide">
     <div>Interveu | All right reserved. Copyright @Interveu</div>
     <div className='flex gap-2'>
 

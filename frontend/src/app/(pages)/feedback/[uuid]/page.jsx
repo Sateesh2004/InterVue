@@ -8,9 +8,7 @@ import { CircleChevronUp, CircleChevronDown } from 'lucide-react';
 
 
 
-export const metadata = {
-    title: "Interveu • Feedback",
-  };
+
 
 
 const Page = () => {

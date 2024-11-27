@@ -12,9 +12,7 @@ import { LoaderCircle } from 'lucide-react';
 
 
 
-export const metadata = {
-  title: "Interveu",
-};
+
 const Signin = () => {
     const router = useRouter()
     

@@ -8,9 +8,7 @@ import 'react-toastify/dist/ReactToastify.css';
 import moment from 'moment'; 
 import FetchInterview from './_components/FetchInterview';
 import Footer from '@/components/Footer';
-export const metadata = {
-  title: "Interveu • Dashboard",
-};
+
 const Page = () => {
   const router = useRouter();
   const [loading, setLoading] = useState(true); 

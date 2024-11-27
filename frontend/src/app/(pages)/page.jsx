@@ -14,9 +14,7 @@ const outfit = Outfit({
 
 
 
-export const metadata = {
-  title: "Interveu",
-};
+
 const page = () => {
   return (
   

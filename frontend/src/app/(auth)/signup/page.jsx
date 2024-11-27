@@ -7,6 +7,13 @@ import Link from 'next/link'
 import { useRouter } from 'next/navigation';
 import { LoaderCircle } from 'lucide-react';
 import { Lobster_Two } from 'next/font/google';
+
+
+export const metadata = {
+  title: "Interveu",
+};
+
+
 const lobster = Lobster_Two({ subsets: ['latin'], weight: '400' });
 const Signin = () => {
   const router = useRouter()

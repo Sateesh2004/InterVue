@@ -9,6 +9,12 @@ import { Lobster_Two } from 'next/font/google';
 const lobster = Lobster_Two({ subsets: ['latin'], weight: '400' });
 
 import { LoaderCircle } from 'lucide-react';
+
+
+
+export const metadata = {
+  title: "Interveu",
+};
 const Signin = () => {
     const router = useRouter()
     

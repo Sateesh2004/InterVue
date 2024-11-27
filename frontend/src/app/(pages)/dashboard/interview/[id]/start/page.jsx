@@ -13,6 +13,9 @@ import { Roboto_Mono } from "next/font/google";
 import SpeechRecognition, { useSpeechRecognition } from 'react-speech-recognition';
 import { GoogleGenerativeAI } from "@google/generative-ai";
 
+export const metadata = {
+  title: "Interveu",
+};
 
 const robotoMono = Roboto_Mono({ subsets: ['latin'] });
 

@@ -20,7 +20,14 @@ const geistMono = localFont({
 
 export const metadata = {
   
-  
+  title: {
+    template:
+      "Interveu • AI Powered Interview Preparation Tool",
+    default:
+      "Interveu • AI Powered Interview Preparation Tool",
+  },
+  description:
+    "At Interveu, we revolutionize the way you prepare for interviews. Our platform uses advanced AI to analyze your job descriptions and generate personalized interview for you.",
     icons: {
       icon: "/assets/favicon.png",
     },

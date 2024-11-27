@@ -6,6 +6,13 @@ import { GoogleGenerativeAI } from "@google/generative-ai";
 import { LoaderCircle } from 'lucide-react';
 import { CircleChevronUp, CircleChevronDown } from 'lucide-react';
 
+
+
+export const metadata = {
+    title: "Interveu • Feedback",
+  };
+
+
 const Page = () => {
     const { uuid } = useParams();
     const [interviewDetails, setInterviewDetails] = useState(null);

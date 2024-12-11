@@ -13,7 +13,6 @@ Intervue is a cutting-edge platform designed to revolutionize the job preparatio
 - [Usage](#usage)
 - [Screenshot](#screenshot)
 - [Future Enhancements](#future-enhancements)
-- [License](#license)
 
 ## Features
 

@@ -13,6 +13,7 @@ import { LoaderCircle } from 'lucide-react';
 
 
 
+
 const Signin = () => {
     const router = useRouter()
     
@@ -91,8 +92,14 @@ const Signin = () => {
 
 
   return (
+<>
+    <head>
+    <title>Interveu • AI-Powered Recruitment Platform</title>
+    <meta name="description" content="Streamline the recruitment process with Interveu, an AI-powered platform that helps recruiters interview and hire the best talent faster." />
+    </head>
 
 <div>
+
 <ToastContainer />
    <div className='flex items-center justify-center  h-[100vh]  '>
      
@@ -168,6 +175,7 @@ Don't have an account? <Link href="/signup" className='text-[#007AFF]'>Create ac
 </form>
 </div>
 </div>
+</>
 
   )
 }

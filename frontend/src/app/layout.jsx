@@ -22,12 +22,12 @@ export const metadata = {
   
   title: {
     template:
-      "Interveu • AI Powered Interview Preparation Tool",
+      "Interveu - AI-Powered Recruitment Platform",
     default:
-      "Interveu • AI Powered Interview Preparation Tool",
+      "Interveu - AI-Powered Recruitment Platform",
   },
   description:
-    "At Interveu, we revolutionize the way you prepare for interviews. Our platform uses advanced AI to analyze your job descriptions and generate personalized interview for you.",
+    "Streamline the recruitment process with Interveu, an AI-powered platform that helps recruiters interview and hire the best talent faster.",
     icons: {
       icon: "/assets/favicon.png",
     },

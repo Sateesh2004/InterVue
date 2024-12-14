@@ -5,6 +5,7 @@ import { Inter } from 'next/font/google'
 import Footer from '@/components/Footer'
 import Testimonials from '@/components/Testimonials'
 import CTA from '@/components/ui/CTA'
+import Head from 'next/head';
 import { Outfit } from 'next/font/google'
 const outfit = Outfit({
   subsets: ['latin'],
@@ -31,6 +32,11 @@ export const metadata = {
 
 const page = () => {
   return (
+    <>
+    <head>
+    <title>Interveu - AI-Powered Recruitment</title>
+    <meta name="description" content="Streamline the recruitment process with Interveu, an AI-powered platform that helps recruiters interview and hire the best talent faster." />
+    </head>
   
     
      
@@ -252,6 +258,7 @@ Experience
 
 
 </div>
+</>
      
   )
 }

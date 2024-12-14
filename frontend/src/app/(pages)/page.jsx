@@ -19,9 +19,9 @@ export const metadata = {
   
   title: {
     template:
-      "Interveu - AI-Powered Recruitment Platform",
+      "Interveu • AI-Powered Recruitment Platform",
     default:
-      "Interveu - AI-Powered Recruitment Platform",
+      "Interveu • AI-Powered Recruitment Platform",
   },
   description:
     "Streamline the recruitment process with Interveu, an AI-powered platform that helps recruiters interview and hire the best talent faster.",
@@ -34,7 +34,7 @@ const page = () => {
   return (
     <>
     <head>
-    <title>Interveu - AI-Powered Recruitment</title>
+    <title>Interveu • AI-Powered Recruitment</title>
     <meta name="description" content="Streamline the recruitment process with Interveu, an AI-powered platform that helps recruiters interview and hire the best talent faster." />
     </head>
   

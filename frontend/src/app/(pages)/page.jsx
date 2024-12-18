@@ -52,7 +52,7 @@ Experience
   </a>
   <h1
     className="mx-auto max-w-4xl font-display text-5xl font-bold tracking-normal text-white-300 dark:text-gray-300 sm:text-7xl">
-    Ace Your Interview 
+    Ace Your Interview Process
     {/* <span className="relative whitespace-nowrap text-white-600 dark:text-gray-300"> Preparation</span> */}
     <span className="relative whitespace-nowrap text-[#007AFF] ">
       <svg aria-hidden="true" viewBox="0 0 418 42" className="absolute top-2/3 left-0 h-[0.58em] w-full fill-[#007AFF] " preserveAspectRatio="none">
@@ -118,7 +118,7 @@ Experience
                     </div>
                     <h3 className="mt-6 text-xl text-black font-semibold leading-tight md:mt-10">Receive Customized Interview</h3>
                     <p className="mt-4 text-base text-gray-400 md:text-lg">
-                    The system generates tailored interview questions based on the job description to assess the candidate’s skills and suitability.
+                    The system generates tailored interview based on the job description to assess the candidate’s skills and suitability.
                     </p>
                 </div>
                 <div>

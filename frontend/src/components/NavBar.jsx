@@ -117,7 +117,7 @@ if (username) {
           </div>
         ) : (
 
-          <Link href="/signin" className='h-[42px] w-[146px] block bg-black rounded-3xl text-center leading-[42px] text-white'>Sign In</Link>
+          <Link href="/signin" className='h-[42px] w-[146px] block bg-black rounded-3xl hover:bg-[#262626] text-center leading-[42px] text-white'>Sign In</Link>
          
         )}
       </div>

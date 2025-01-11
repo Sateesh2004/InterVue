@@ -19,12 +19,12 @@ export const metadata = {
   
   title: {
     template:
-      "Interveu • AI-Powered Recruitment Platform",
+      "Interveu • AI-Powered Mock Interview Platform",
     default:
-      "Interveu • AI-Powered Recruitment Platform",
+      "Interveu • AI-Powered Mock Interview Platform",
   },
   description:
-    "Streamline the recruitment process with Interveu, an AI-powered platform that helps recruiters interview and hire the best talent faster.",
+    "Interveu is an innovative AI-powered platform designed to revolutionize interview preparation. It allows users to input a job description (JD), and based on the provided details, takes a mock interview tailored to the role.",
     icons: {
       icon: "/assets/favicon.png",
     },
@@ -34,8 +34,8 @@ const page = () => {
   return (
     <>
     <head>
-    <title>Interveu • AI-Powered Recruitment Platform</title>
-    <meta name="description" content="Streamline the recruitment process with Interveu, an AI-powered platform that helps recruiters interview and hire the best talent faster." />
+    <title>Interveu • AI-Powered Mock Interview Platform</title>
+    <meta name="description" content="Interveu is an innovative AI-powered platform designed to revolutionize interview preparation. It allows users to input a job description (JD), and based on the provided details, takes a mock interview tailored to the role." />
     </head>
   
     

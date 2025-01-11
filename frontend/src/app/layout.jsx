@@ -22,12 +22,12 @@ export const metadata = {
   
   title: {
     template:
-      "Interveu • AI-Powered Recruitment Platform",
+      "Interveu • AI-Powered Mock Interview Platform",
     default:
-      "Interveu • AI-Powered Recruitment Platform",
+      "Interveu • AI-Powered Mock Interview Platform",
   },
   description:
-    "Streamline the recruitment process with Interveu, an AI-powered platform that helps recruiters interview and hire the best talent faster.",
+    "Interveu is an innovative AI-powered platform designed to revolutionize interview preparation. It allows users to input a job description (JD), and based on the provided details, take a mock interview tailored to the role.",
     icons: {
       icon: "/assets/favicon.png",
     },
@@ -36,8 +36,8 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-      <meta property="og:title" content="Interveu • AI-Powered Recruitment Platform"/>
-      <meta property="og:description" content="Streamline the recruitment process with Interveu, an AI-powered platform that helps recruiters interview and hire the best talent faster."/>
+      <meta property="og:title" content="Interveu • AI-Powered Mock Interview Platform"/>
+      <meta property="og:description" content="Interveu is an innovative AI-powered platform designed to revolutionize interview preparation."/>
       <meta property="og:image" content="/assets/favicon.png" />
       <meta name="google-site-verification" content="uRi_8KJdu6QPJgH35SYqn5Gl0c5TGuVl7SzAa_huf6k" />
       </head>

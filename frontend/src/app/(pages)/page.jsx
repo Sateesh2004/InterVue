@@ -51,7 +51,7 @@ Interview
 Experience
   </a>
   <h1
-    className="mx-auto max-w-4xl font-display text-5xl font-bold tracking-normal text-white-300 dark:text-gray-300 sm:text-7xl">
+    className="mx-auto max-w-4xl font-display text-5xl font-bold tracking-normal text-white-300  sm:text-7xl">
     Ace Your Interview Process
     {/* <span className="relative whitespace-nowrap text-white-600 dark:text-gray-300"> Preparation</span> */}
     <span className="relative whitespace-nowrap text-[#007AFF] ">
@@ -107,7 +107,7 @@ Experience
                         <span className="text-xl font-semibold text-gray-700">1</span>
                     </div>
                     <h3 className="mt-6 text-xl  text-black font-semibold leading-tight md:mt-10">Submit Your Job Description</h3>
-                    <p className="mt-4 text-base text-gray-400 md:text-lg">
+                    <p className="mt-4 text-base text-black md:text-lg">
                     Enter your job description (JD) into the platform, and our AI analyzes the key skills, requirements, and industry terms.
                     </p>
                 </div>
@@ -117,7 +117,7 @@ Experience
                         <span className="text-xl font-semibold text-gray-700">2</span>
                     </div>
                     <h3 className="mt-6 text-xl text-black font-semibold leading-tight md:mt-10">Receive Customized Interview</h3>
-                    <p className="mt-4 text-base text-gray-400 md:text-lg">
+                    <p className="mt-4 text-base text-black md:text-lg">
                     The system generates tailored interview based on the job description to assess the candidate’s skills and suitability.
                     </p>
                 </div>
@@ -127,7 +127,7 @@ Experience
                         <span className="text-xl font-semibold text-gray-700">3</span>
                     </div>
                     <h3 className="mt-6 text-xl text-black font-semibold leading-tight md:mt-10">Get Instant Feedback</h3>
-                    <p className="mt-4 text-base text-gray-400 md:text-lg">
+                    <p className="mt-4 text-base text-black md:text-lg">
                     After answering, the AI provides instant, personalized feedback to help you improve and prepare for your interview.
                     </p>
                 </div>

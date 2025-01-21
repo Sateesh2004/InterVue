@@ -1,6 +1,4 @@
-
-
-# Intervue
+# Intervue :  AI Powered Mock Interview Platform
 
 Intervue is a cutting-edge platform designed to revolutionize the job preparation process. By leveraging the power of AI, this platform allows users to input job descriptions (JDs), generates tailored interview and provides personalized feedback to enhance users' readiness for their dream jobs.
 

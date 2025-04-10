@@ -40,18 +40,18 @@ const page = () => {
   
     
      
-<div className='bg-gradient-to-b from-[#F2FFF9] to-[#FFF6F1]'>
+<div className='bg-gradient-to-b  from-[#F2FFF9] to-[#FFF6F1]'>
 
 <div
-  className="flex flex-1 w-full flex-col items-center justify-center text-center px-4 py-20 ">
+  className="flex  flex-1 w-full flex-col items-center justify-center text-center px-4 py-20 ">
   <a href=""
-    className="border border-white-700 bg-white  rounded-3xl py-2 px-4 text-white-400  text-sm mb-5 transition duration-300 ease-in-out ">
+    className="border border-white-700 bg-white text-black  rounded-3xl py-2 px-4 text-white-400  text-sm mb-5 transition duration-300 ease-in-out ">
     Enhance Your
 Interview
 Experience
   </a>
   <h1
-    className="mx-auto max-w-4xl font-display text-5xl font-bold tracking-normal text-white-300  sm:text-7xl">
+    className="mx-auto  max-w-4xl font-display text-black text-5xl font-bold tracking-normal text-white-300  sm:text-7xl">
     Ace Your Interview Process
     {/* <span className="relative whitespace-nowrap text-white-600 dark:text-gray-300"> Preparation</span> */}
     <span className="relative whitespace-nowrap text-[#007AFF] ">
@@ -61,7 +61,7 @@ Experience
       <span className="relative"> with AI</span>
     </span>
   </h1>
-  <h2 className="mx-auto mt-12 max-w-xl text-lg sm:text-white-400 text-white-500 text-[#545454] leading-7">
+  <h2 className="mx-auto mt-12 max-w-xl text-lg sm:text-white-400 text-white-500 text-gray-800 leading-7">
   InterVeu is a cutting-edge open-source project, powered by advanced AI technology.
   </h2>
   {/* <Link className="bg-black rounded-[100px] flex justify-center items-center leading-[55px] text-white  font-[16px] w-[239px] h-[55px]  sm:mt-10 mt-8   transition"
@@ -93,7 +93,7 @@ Experience
     <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
         <div className="max-w-2xl mx-auto text-center">
             <h2 className="text-4xl text-black font-extrabold mx-auto md:text-6xl lg:text-5xl">How does it work?</h2>
-            <p className="max-w-2xl mx-auto mt-4 text-base text-gray-400 leading-relaxed md:text-2xl">
+            <p className="max-w-2xl  mx-auto mt-4 text-base text-gray-800 leading-relaxed md:text-2xl">
                 Our AI solution will help you from start to finish
             </p>
         </div>
@@ -241,7 +241,7 @@ Experience
 
 
 <div>
-  <h1 className={`text-center font-semibold text-[40px] ${outfit.className}`}>It's time to kick off your first mock interview. Try now.</h1>
+  <h1 className={`text-center font-semibold text-[40px] text-black ${outfit.className}`}>It's time to kick off your first mock interview. Try now.</h1>
   <div className='flex justify-center'>
   <CTA/>
   </div>

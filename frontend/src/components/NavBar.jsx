@@ -80,7 +80,7 @@ if (username) {
   };
 
   return (
-    <div className="bg-[#F2FFF9]  h-[60px] flex items-center">
+    <div className="bg-[#F2FFF9] relative z-[1000]  h-[60px] flex items-center">
     {cardshow && (
       <div className="absolute top-[60px] right-[10px] w-[120px] h-[100px] bg-white shadow-lg rounded-md border flex flex-col items-center justify-center z-[50]">
         <button onClick={logout} className="px-4 py-2 bg-[#007AFF] text-white rounded-md hover:bg-blue-700">
@@ -91,7 +91,7 @@ if (username) {
     <nav className="flex justify-between w-full items-center px-5">
       
 
-<Link href="/"> <div className={`text-[40px] font-bold ${lobster.className}`}>Interveu</div></Link>
+<Link href="/"> <div className={`text-[40px] text-black font-bold ${lobster.className}`}>Interveu</div></Link>
       
 
 
